@@ -1,0 +1,24 @@
+*{
+    background-color: black;
+    color: white;
+}
+div {
+    border: 1px solid white;
+    width: 25%;
+    padding-left: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-left: 25%;
+    background-color: rgb(53, 53, 53);
+}
+h2 {
+    margin-left: 40%;
+}
+form{
+    background-color:  rgb(53, 53, 53);
+}
+#nome,
+#lblNome{
+    background-color: white;
+    color: black;
+}
