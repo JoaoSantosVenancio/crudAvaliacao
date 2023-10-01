@@ -1,14 +1,15 @@
 *{
     background-color: black;
     color: white;
+
 }
 div {
     border: 1px solid white;
     width: 25%;
-    padding-left: 20%;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     background-color: rgb(53, 53, 53);
 }
 h2 {
@@ -18,7 +19,31 @@ form{
     background-color:  rgb(53, 53, 53);
 }
 #nome,
-#lblNome{
+#preco,
+#cod,
+#btn,
+#desc{
     background-color: white;
     color: black;
+}
+#lblPreco,
+#lblCod,
+#lblNome,
+#lblDescr{
+    background-color:  rgb(53, 53, 53); 
+}
+
+#sucess {
+    color: green;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#warning {
+    color: orange;
+    font-weight: bold;
 }
